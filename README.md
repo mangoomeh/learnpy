@@ -19,7 +19,7 @@
 2. from folder import package
 3. output in console: print()
 4. get length of iterable: len()
-5. get an iterable from 0 to n: range(n)
+5. get an iterable from 0 to n: range(n+1)
 
 ## How to Loop
 1. for i in range(5):
