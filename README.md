@@ -34,7 +34,9 @@
 3. modulo: %
 
 ## Lists
-Structure: [0,1,2,3], ["hi", "world", 1, 2, 3] or [[0,1], [2,3], [4,5]]
+Lists are iterables
+### Structure: [0,1,2,3], ["hi", "world", 1, 2, 3] or [[0,1], [2,3], [4,5]]
+### Methods:
 1. get nth element in the list: list[n-1]
 2. add object at end of list: list.append(object)
 3. remove all elements: list.clear()
@@ -48,7 +50,24 @@ Structure: [0,1,2,3], ["hi", "world", 1, 2, 3] or [[0,1], [2,3], [4,5]]
 11. reverse order in list: list.reverse()
 12. sort elements in list: list.sort(reverse=False, key=myFunction)
 13. iterate through a list where i is the element: for i in list:
+### Operations:
+1. multiplication: list*n = [list, list, ... (n times)]
+2. addition just adds second list behind first list
+
 
 ## Dictionaries
+dictionaries are iterables
+### Structure: {"name": "John", "age": 20}
+### Methods:
 1. get a list of the keys: dict.keys()
 2. get a list of the values: dict.values()
+3. iterate through keys and values: for keys, values in dict.items():
+
+## Strings
+Strings are considered iterables
+### Structure: "John", "2020", "/n"
+### Formatting:
+1. line break: "/n"
+2. tab: "/t"
+3. fstring: f"{variablename}"
+4. "{} {}".format(value1, value2)
